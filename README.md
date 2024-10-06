@@ -34,15 +34,3 @@ O Sistema de Portaria é uma aplicação desenvolvida para gerenciar a entrada e
 2. Instale a biblioteca `mysql-connector-python` se ainda não tiver:
    ```bash
    pip install mysql-connector-python
-
-sistema_portaria/
-│
-├── main.py                # Arquivo principal para executar o sistema
-│
-├── db_connection.py       # Módulo para gerenciar a conexão com o banco de dados
-│   
-├── db_setup.py            # Módulo para criar tabelas no banco de dados
-│
-└── interface/             # Diretório para arquivos da interface gráfica
-    ├── __init__.py        # Inicializador para o pacote da interface
-    └── gui.py             # Arquivo para implementar a interface gráfica
